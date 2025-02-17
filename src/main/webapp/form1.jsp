@@ -8,10 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	out.print("줄바꿈<br>");
-	out.println(LocalDate.now()+"<br>");
-	out.println(LocalTime.now()+"<br>");
-%>
+<form action ="result.jsp">
+	<input type="text" name="kor" />
+	<input type="submit" />	
+</form>
 </body>
 </html>
